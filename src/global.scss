@@ -16,7 +16,7 @@
 @import "@ionic/angular/css/normalize.css";
 @import "@ionic/angular/css/structure.css";
 @import "@ionic/angular/css/typography.css";
-@import '@ionic/angular/css/display.css';
+@import "@ionic/angular/css/display.css";
 
 /* Optional CSS utils that can be commented out */
 @import "@ionic/angular/css/padding.css";
@@ -24,3 +24,71 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+@import "./theme/icons.scss";
+@import "./theme/spaces.scss";
+
+@font-face {
+  font-family: "Fredoka Medium";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/Fredoka-Medium.ttf");
+}
+
+* {
+  font-family: var(--fredoka-medium);
+  font-size: 16px;
+}
+
+.button {
+  --border-radius: 32px;
+  --box-shadow: 0px 4px 4px 0px #c3b7ff;
+  color: var(--accent-color);
+  font-weight: bold;
+  text-transform: none;
+  width: 140px;
+  font-size: 1rem;
+
+  &--accent {
+    &.button-solid {
+      --background: var(--white);
+      --ion-color-base: var(--white);
+      --ion-color-shade: var(--white);
+      --ion-color-contrast: var(--white);
+      --ion-color-primary-shade: var(--white);
+      --background-focused: var(--white);
+      --ion-color-primary-tint: var(--white);
+    }
+  }
+}
+
+@media only screen and (max-height: 500px) {
+  * {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .button {
+    width: 130px;
+  }
+}
+
+ion-modal.alert {
+  --height: auto;
+  --border-radius: 8px;
+  --width: 90vw;
+  --box-shadow: 0 !important;
+  --ion-backdrop-opacity: 0.4;
+
+  .ion-page {
+    position: relative;
+    display: block;
+    contain: content;
+    .inner-content {
+      max-height: 90vh;
+      overflow: auto;
+      padding: 10px;
+    }
+  }
+}

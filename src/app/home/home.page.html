@@ -1,20 +1,51 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content class="memory" [fullscreen]="true">
+  <h1 class="memory__title">{{ 'homeTitle' | translate }}</h1>
+  <swiper-container
+    slides-per-view="2.1"
+    centered-slides="true"
+    space-between="20"
+    lazy="true"
+    events-prefix="swiper-"
+  >
+    <swiper-slide *ngFor="let category of categories">
+      <section class="memory__card" (click)="goToGame(category)">
+        <div
+          class="memory__card-icon"
+          [ngStyle]="{ 'background-color' : category.color}"
+        >
+          <i class="memory-icons {{ category.icon }}"></i>
+        </div>
+        <h2 class="memory__card-title">{{ category.title }}</h2>
+        <p class="memory__card-description">{{ category.description }}</p>
+      </section>
+    </swiper-slide>
+  </swiper-container>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <p class="memory__record" *ngIf="players === 1 && record">
+    {{ 'record' | translate}}<span> {{ record }} </span>
+  </p>
 </ion-content>
+
+<ion-footer class="memory__footer">
+  <div>
+    <h4 class="memory__footer-title">{{ 'players' | translate}}</h4>
+    <hr />
+  </div>
+
+  <div class="margin-top--24 memory__footer-options">
+    <div>
+      <label class="selector-component radio-container">
+        1 {{ 'player' | translate }}
+        <input type="radio" [value]="1" [(ngModel)]="players" />
+        <span class="radio-container__checkmark"></span>
+      </label>
+    </div>
+    <div>
+      <label class="selector-component bhd-radio-container">
+        2 {{'players' | translate}}
+        <input type="radio" [value]="2" [(ngModel)]="players" />
+        <span class="radio-container__checkmark"></span>
+      </label>
+    </div>
+  </div>
+</ion-footer>
