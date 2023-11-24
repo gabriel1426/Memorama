@@ -1,0 +1,867 @@
+{
+  "title": "App template",
+  "homeTitle": "Recuerda y diviértete",
+  "players": "Jugadores",
+  "player": "Jugador",
+  "wonderful": "Increíble! nuevo record: ",
+  "greatJob": "Gran trabajo! tu marca fue de:  ",
+  "exit": "Salir",
+  "playAgain": "Jugar de nuevo",
+  "record": "Tu record es de: ",
+  "sureAlert": {
+    "title": "¿Estás seguro que deseas reiniciar el juego?",
+    "okBtn": "Si, reiniciar",
+    "cancelBtn": "Cancelar"
+  },
+  "ExitAlert": {
+    "title": "¿Estás seguro que deseas salir?",
+    "okBtn": "Si, salir",
+    "cancelBtn": "Cancelar"
+  },
+
+  "winnerAlert": {
+    "okBtn": "Salir",
+    "cancelBtn": "Jugar de nuevo"
+  },
+  "categories": [
+    {
+      "id": "animals",
+      "title": "Animales",
+      "description": "Adéntrate en el emocionante mundo animal y descubre su diversidad.",
+      "icon": "icon__animals",
+      "color": "#FFA500"
+    },
+    {
+      "id": "food",
+      "title": "Comida",
+      "description": "Encuentra la combinación perfecta entre sabor y diversión.",
+      "icon": "icon__food",
+      "color": "#32CD32"
+    },
+    {
+      "id": "flags",
+      "title": "Banderas",
+      "description": "Sumérgete en el mundo de las banderas y descubre la riqueza cultural.",
+      "icon": "icon__flags",
+      "color": "#8A2BE2"
+
+    },
+    {
+      "id": "sports",
+      "title": "Deportes",
+      "description": "Adéntrate en el espectacular mundo de los deportes y  vive la emoción.",
+      "icon": "icon__sports",
+      "color": "#87CEEB"
+    },
+    {
+      "id": "music",
+      "title": "Música",
+      "description": "Embárcate en el mundo de la música y descubre su armonía.",
+      "icon": "icon__music",
+      "color": "#FF0000"
+    }
+  ],
+  "animals": [
+    {
+      "id": 1,
+      "icon": "icon__axolotl"
+    },
+    {
+      "id": 2,
+      "icon": "icon__cat"
+    },
+
+    {
+      "id": 3,
+      "icon": "icon__charging-bull"
+    },
+    {
+      "id": 4,
+      "icon": "icon__donkey"
+    },
+    {
+      "id": 5,
+      "icon": "icon__eagle-emblem"
+    },
+    {
+      "id": 6,
+      "icon": "icon__earwig"
+    },
+    {
+      "id": 7,
+      "icon": "icon__frog"
+    },
+    {
+      "id": 8,
+      "icon": "icon__gecko"
+    },
+    {
+      "id": 9,
+      "icon": "icon__goat"
+    },
+    {
+      "id": 10,
+      "icon": "icon__gold-scarab"
+    },
+    {
+      "id": 11,
+      "icon": "icon__horse-head"
+    },
+    {
+      "id": 12,
+      "icon": "icon__jellyfish"
+    },
+    {
+      "id": 13,
+      "icon": "icon__labrador-head"
+    },
+    {
+      "id": 14,
+      "icon": "icon__lion"
+    },
+    {
+      "id": 15,
+      "icon": "icon__mite-alt"
+    },
+    {
+      "id": 16,
+      "icon": "icon__pangolin"
+    },
+    {
+      "id": 17,
+      "icon": "icon__parrot-head"
+    },
+    {
+      "id": 18,
+      "icon": "icon__pig"
+    },
+    {
+      "id": 19,
+      "icon": "icon__polar-bear"
+    },
+    {
+      "id": 20,
+      "icon": "icon__scarab-beetle"
+    },
+    {
+      "id": 21,
+      "icon": "icon__turtle"
+    },
+    {
+      "id": 22,
+      "icon": "icon__angular-spider"
+    },
+    {
+      "id": 23,
+      "icon": "icon__pegasus"
+    },
+    {
+      "id": 24,
+      "icon":  "icon__bird-twitter"
+    },
+    {
+      "id": 25,
+      "icon": "icon__fox-head"
+    },
+    {
+      "id": 26,
+      "icon":  "icon__monkey"
+    },
+    {
+      "id": 27,
+      "icon": "icon__octopus"
+    },
+    {
+      "id": 28,
+      "icon":  "icon__sad-crab"
+    },
+    {
+      "id": 29,
+      "icon": "icon__stag-head"
+    },
+    {
+      "id": 30,
+      "icon":  "icon__swan"
+    },
+    {
+      "id": 31,
+      "icon": "icon__stomp"
+    },
+    {
+      "id": 32,
+      "icon":  "icon__wasp-sting"
+    },
+    {
+      "id": 33,
+      "icon": "icon__wolf-head"
+    },
+    {
+      "id": 34,
+      "icon":  "icon__gorilla"
+    },
+    {
+      "id": 35,
+      "icon": "icon__koala"
+    },
+    {
+      "id": 36,
+      "icon":  "icon__kangaroo"
+    },
+    {
+      "id": 37,
+      "icon": "icon__praying-mantis"
+    },
+    {
+      "id": 38,
+      "icon":  "icon__tiger-head"
+    },
+    {
+      "id": 39,
+      "icon": "icon__sheep"
+    },
+    {
+      "id": 40,
+      "icon":  "icon__sperm-whale"
+    }
+  ],
+  "food": [
+    {
+      "id" :  1,
+      "icon" : "icon__artichoke"
+    },
+    {
+      "id" : 2,
+      "icon" : "icon__boba"
+    },
+    {
+      "id" : 3,
+      "icon" : "icon__bok-choy"
+    },
+    {
+      "id" : 4,
+      "icon" : "icon__charcuterie"
+    },
+    {
+      "id" : 5,
+      "icon" : "icon__dumpling"
+    },
+    {
+      "id" : 6,
+      "icon" : "icon__soda-bottle"
+    },
+    {
+      "id" : 7,
+      "icon" : "icon__chocolate-bar"
+    },
+    {
+      "id" : 8,
+      "icon" : "icon__soda-can"
+    },
+    {
+      "id" : 9,
+      "icon" : "icon__milk-carton"
+    },
+    {
+      "id" : 10,
+      "icon" : "icon__burn"
+    },
+    {
+      "id" : 11,
+      "icon" : "icon__egg-pod"
+    },
+    {
+      "id" : 12,
+      "icon" : "icon__cake-slice"
+    },
+    {
+      "id" : 13,
+      "icon" : "icon__coffee-mug"
+    },
+    {
+      "id" : 14,
+      "icon" : "icon__cheese-wedge"
+    },
+    {
+      "id" : 15,
+      "icon" : "icon__dripping-honey"
+    },
+    {
+      "id" : 16,
+      "icon" : "icon__grapes"
+    },
+    {
+      "id" : 17,
+      "icon" : "icon__pie-slice"
+    },
+    {
+      "id" : 18,
+      "icon" : "icon__salt-shaker"
+    },
+    {
+      "id" : 19,
+      "icon" : "icon__shiny-apple"
+    },
+    {
+      "id" : 20,
+      "icon" : "icon__sliced-bread"
+    },
+    {
+      "id" : 21,
+      "icon" : "icon__teapot"
+    },
+    {
+      "id" : 22,
+      "icon" : "icon__wheat"
+    },
+    {
+      "id" : 23,
+      "icon" : "icon__banana"
+    },
+    {
+      "id" : 24,
+      "icon" : "icon__beer-bottle"
+    },
+    {
+      "id" : 25,
+      "icon" : "icon__beet"
+    },
+    {
+      "id" : 26,
+      "icon" : "icon__bell-pepper"
+    },
+    {
+      "id" : 27,
+      "icon" : "icon__berries-bowl"
+    },
+    {
+      "id" : 28,
+      "icon" : "icon__butter-toast"
+    },
+    {
+      "id" : 29,
+      "icon" : "icon__full-pizza"
+    },
+    {
+      "id" : 30,
+      "icon" : "icon__french-fries"
+    },
+    {
+      "id" : 31,
+      "icon" : "icon__hamburger"
+    },
+    {
+      "id" : 32,
+      "icon" : "icon__honey-jar"
+    },
+    {
+      "id" : 33,
+      "icon" : "icon__hot-dog"
+    },
+    {
+      "id" : 34,
+      "icon" : "icon__ice-cream-cone"
+    },
+    {
+      "id" : 35,
+      "icon" : "icon__jelly"
+    },
+    {
+      "id" : 36,
+      "icon" : "icon__marshmallows"
+    },
+    {
+      "id" : 37,
+      "icon" : "icon__nachos"
+    },
+    {
+      "id" : 38,
+      "icon" : "icon__noodles"
+    },
+    {
+      "id" : 39,
+      "icon" : "icon__sandwich"
+    },
+    {
+      "id" : 40,
+      "icon" : "icon__popcorn"
+    },
+    {
+      "id" : 41,
+      "icon" : "icon__pretzel"
+    },
+    {
+      "id" : 42,
+      "icon" : "icon__pear"
+    },
+    {
+      "id" : 43,
+      "icon" : "icon__stairs-cake"
+    },
+    {
+      "id" : 44,
+      "icon" : "icon__spiral-lollipop"
+    },
+    {
+      "id" : 45,
+      "icon" : "icon__tacos"
+    },
+    {
+      "id" : 46,
+      "icon" : "icon__tangerine"
+    },
+    {
+      "id" : 47,
+      "icon" : "icon__tomato"
+    },
+    {
+      "id" : 48,
+      "icon" : "icon__wine-bottle"
+    }
+  ],
+  "sports": [
+    {
+      "id": 1,
+      "icon": "icon__american-football-player"
+    },
+    {
+      "id": 2,
+      "icon": "icon__archer"
+    },
+    {
+      "id": 3,
+      "icon": "icon__baseball-glove"
+    },
+    {
+      "id": 4,
+      "icon": "icon__basketball-ball"
+    },
+    {
+      "id": 5,
+      "icon": "icon__body-balance"
+    },
+    {
+      "id": 6,
+      "icon": "icon__bowling-strike"
+    },
+    {
+      "id": 7,
+      "icon": "icon__canoe"
+    },
+    {
+      "id": 8,
+      "icon": "icon__corner-flag"
+    },
+    {
+      "id": 9,
+      "icon": "icon__cricket-bat"
+    },
+    {
+      "id": 10,
+      "icon": "icon__cycling"
+    },
+    {
+      "id": 11,
+      "icon": "icon__discobolus"
+    },
+    {
+      "id": 12,
+      "icon": "icon__fencer"
+    },
+    {
+      "id": 13,
+      "icon": "icon__flying-fox"
+    },
+    {
+      "id": 14,
+      "icon": "icon__golf-flag"
+    },
+    {
+      "id": 15,
+      "icon": "icon__high-kick"
+    },
+    {
+      "id": 16,
+      "icon": "icon__high-punch"
+    },
+    {
+      "id": 17,
+      "icon": "icon__hockey"
+    },
+    {
+      "id": 18,
+      "icon": "icon__ice-skate"
+    },
+    {
+      "id": 19,
+      "icon": "icon__kimono"
+    },
+    {
+      "id": 20,
+      "icon": "icon__ping-pong-bat"
+    },
+    {
+      "id": 21,
+      "icon": "icon__pool-dive"
+    },
+    {
+      "id": 22,
+      "icon": "icon__scuba-mask"
+    },
+    {
+      "id": 23,
+      "icon": "icon__shuttlecock"
+    },
+    {
+      "id": 24,
+      "icon": "icon__skier"
+    },
+    {
+      "id": 25,
+      "icon": "icon__snitch-quidditch-ball"
+    },
+    {
+      "id": 26,
+      "icon": "icon__soccer-ball"
+    },
+    {
+      "id": 27,
+      "icon": "icon__trophy-cup"
+    },
+    {
+      "id": 28,
+      "icon": "icon__van-damme-split"
+    },
+    {
+      "id": 29,
+      "icon": "icon__wave-surfer"
+    },
+    {
+      "id": 30,
+      "icon": "icon__weight-lifting-up"
+    }
+  ],
+  "flags" : [
+    {
+      "id": 1,
+      "icon": "icon__barracks-tent"
+    },
+    {
+      "id": 2,
+      "icon": "icon__barracks"
+    },
+    {
+      "id": 3,
+      "icon": "icon__black-flag"
+    },
+    {
+      "id": 4,
+      "icon": "icon__brazil-flag"
+    },
+    {
+      "id": 5,
+      "icon": "icon__broken-ribbon"
+    },
+    {
+      "id": 6,
+      "icon": "icon__checkered-flag"
+    },
+    {
+      "id": 7,
+      "icon": "icon__conqueror"
+    },
+    {
+      "id": 8,
+      "icon": "icon__corner-flag"
+    },
+    {
+      "id": 9,
+      "icon": "icon__crow-nest"
+    },
+    {
+      "id": 10,
+      "icon": "icon__ermine"
+    },
+    {
+      "id": 11,
+      "icon": "icon__european-flag"
+    },
+    {
+      "id": 12,
+      "icon": "icon__flag-objective"
+    },
+    {
+      "id": 13,
+      "icon": "icon__fleur-de-lys"
+    },
+    {
+      "id": 14,
+      "icon": "icon__flying-flag"
+    },
+    {
+      "id": 15,
+      "icon": "icon__golf-flag"
+    },
+    {
+      "id": 16,
+      "icon": "icon__hammer-sickle"
+    },
+    {
+      "id": 17,
+      "icon": "icon__hill-conquest"
+    },
+    {
+      "id": 18,
+      "icon": "icon__klingon"
+    },
+    {
+      "id": 19,
+      "icon": "icon__knight-banner"
+    },
+    {
+      "id": 20,
+      "icon": "icon__level-end-flag"
+    },
+    {
+      "id": 21,
+      "icon": "icon__medieval-pavilion"
+    },
+    {
+      "id": 22,
+      "icon": "icon__occupy"
+    },
+    {
+      "id": 23,
+      "icon": "icon__party-flags"
+    },
+    {
+      "id": 24,
+      "icon": "icon__pirate-flag"
+    },
+    {
+      "id": 25,
+      "icon": "icon__planet-conquest"
+    },
+    {
+      "id": 26,
+      "icon": "icon__rally-the-troops"
+    },
+    {
+      "id": 27,
+      "icon": "icon__sand-castle"
+    },
+    {
+      "id": 28,
+      "icon": "icon__skull-crossed-bones"
+    },
+    {
+      "id": 29,
+      "icon": "icon__south-africa-flag"
+    },
+    {
+      "id": 30,
+      "icon": "icon__spinning-ribbons"
+    },
+    {
+      "id": 31,
+      "icon": "icon__stairs-goal"
+    },
+    {
+      "id": 32,
+      "icon": "icon__star-flag"
+    },
+    {
+      "id": 33,
+      "icon": "icon__tattered-banner"
+    },
+    {
+      "id": 34,
+      "icon": "icon__tower-flag"
+    },
+    {
+      "id": 35,
+      "icon": "icon__truce"
+    },
+    {
+      "id": 36,
+      "icon": "icon__trumpet-flag"
+    },
+    {
+      "id": 37,
+      "icon": "icon__tusks-flag"
+    },
+    {
+      "id": 38,
+      "icon": "icon__union-jack"
+    },
+    {
+      "id": 39,
+      "icon": "icon__usa-flag"
+    },
+    {
+      "id": 40,
+      "icon": "icon__vertical-banner"
+    }
+  ],
+  "music": [
+    {
+      "id": 1,
+      "icon": "icon__accordion"
+    },
+    {
+      "id": 2,
+      "icon": "icon__bagpipes"
+    },
+    {
+      "id": 3,
+      "icon": "icon__banjo"
+    },
+    {
+      "id": 4,
+      "icon": "icon__bassoon"
+    },
+    {
+      "id": 5,
+      "icon": "icon__clarinet"
+    },
+    {
+      "id": 6,
+      "icon": "icon__djembe"
+    },
+    {
+      "id": 7,
+      "icon": "icon__drum-kit"
+    },
+    {
+      "id": 8,
+      "icon": "icon__drum"
+    },
+    {
+      "id": 9,
+      "icon": "icon__flute"
+    },
+    {
+      "id": 10,
+      "icon": "icon__french-horn"
+    },
+    {
+      "id": 11,
+      "icon": "icon__gong"
+    },
+    {
+      "id": 12,
+      "icon": "icon__grand-piano"
+    },
+    {
+      "id": 13,
+      "icon": "icon__guitar-bass-head"
+    },
+    {
+      "id": 14,
+      "icon": "icon__guitar-head"
+    },
+    {
+      "id": 15,
+      "icon": "icon__guitar"
+    },
+    {
+      "id": 16,
+      "icon": "icon__harp"
+    },
+    {
+      "id": 17,
+      "icon": "icon__lyre"
+    },
+    {
+      "id": 18,
+      "icon": "icon__maracas"
+    },
+    {
+      "id": 19,
+      "icon": "icon__musical-keyboard"
+    },
+    {
+      "id": 20,
+      "icon": "icon__ocarina"
+    },
+    {
+      "id": 21,
+      "icon": "icon__musical-score"
+    },
+    {
+      "id": 22,
+      "icon": "icon__musical-notes"
+    },
+    {
+      "id": 23,
+      "icon": "icon__otamatone"
+    },
+    {
+      "id": 24,
+      "icon": "icon__pan-flute"
+    },
+    {
+      "id": 25,
+      "icon": "icon__pianist"
+    },
+    {
+      "id": 26,
+      "icon": "icon__piano-keys"
+    },
+    {
+      "id": 27,
+      "icon": "icon__pipe-organ"
+    },
+    {
+      "id": 28,
+      "icon": "icon__saxophone"
+    },
+    {
+      "id": 29,
+      "icon": "icon__tambourine"
+    },
+    {
+      "id": 30,
+      "icon": "icon__trombone"
+    },
+    {
+      "id": 31,
+      "icon": "icon__trumpet"
+    },
+    {
+      "id": 32,
+      "icon": "icon__tuba"
+    },
+    {
+      "id": 33,
+      "icon": "icon__double-quaver"
+    },
+    {
+      "id": 34,
+      "icon": "icon__g-clef"
+    },
+    {
+      "id": 35,
+      "icon": "icon__sound-on"
+    },
+    {
+      "id": 36,
+      "icon": "icon__tune-pitch"
+    },
+    {
+      "id": 37,
+      "icon": "icon__zigzag-tune"
+    },
+    {
+      "id": 38,
+      "icon": "icon__violin"
+    },
+    {
+      "id": 39,
+      "icon": "icon__xylophone"
+    },
+    {
+      "id": 40,
+      "icon": "icon__yunluo"
+    }
+  ]
+}

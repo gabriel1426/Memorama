@@ -1,0 +1,107 @@
+<ion-content [fullscreen]="true" scroll-y="false">
+  <ion-header>
+    <ion-toolbar>
+      <section class="header">
+        <div class="header__options" *ngIf="!hasFinishedGame">
+          <i
+            class="memory-icons icon__restore"
+            (click)="showAlert(MenuEnum.reset)"
+          ></i>
+          <i
+            class="memory-icons icon__{{ !isMute ? 'sound' : 'sound-off'}}"
+            (click)="mute()"
+          ></i>
+          <i
+            class="memory-icons icon__home"
+            (click)="showAlert(MenuEnum.exit)"
+          ></i>
+        </div>
+        <div class="header__data">
+          <div class="header__data-item" *ngIf="players === '1'">
+            <div class="header__icon-container">
+              <img class="header__icon" src="assets/icon/clicks.svg" alt="" />
+            </div>
+            <p class="header__data-text">{{ movements }}</p>
+          </div>
+
+          <div class="header__data-item">
+            <div class="header__icon-container header__icon-container-time">
+              <img class="header__icon" src="assets/icon/time.svg" alt="" />
+            </div>
+            <p class="header__data-text">{{ timer }}</p>
+          </div>
+        </div>
+      </section>
+    </ion-toolbar>
+  </ion-header>
+
+  <section class="game" [ngStyle]="!showFooter ? {'height': '93%'} : {}">
+    <div class="game__table" id="table">
+      <div
+        class="game__card"
+        *ngFor="let picture of pictures"
+        (click)="validate($event, picture)"
+      >
+        <div class="game__face game__face--front">
+          <i class="memory-icons icon__question"></i>
+        </div>
+        <div
+          class="game__face game__face--back"
+          [ngStyle]="{'background-color': picture.color}"
+        >
+          <i class="memory-icons {{ picture.icon }}"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+</ion-content>
+
+<ion-footer *ngIf="showFooter">
+  <section class="footer" *ngIf="players === '1'; else twoPlayers">
+    <h3 class="footer__title">
+      {{ finishMessage }}<span class="footer__time"> {{ timer }} </span>
+    </h3>
+    <div class="footer__buttons">
+      <ion-button
+        class="button button--accent"
+        size="small"
+        (click)="goToHome()"
+      >
+        {{ 'exit' | translate }}
+      </ion-button>
+      <ion-button
+        class="button button--accent"
+        size="small"
+        (click)="resetGame()"
+      >
+        {{ 'playAgain' | translate }}
+      </ion-button>
+    </div>
+  </section>
+
+  <ng-template #twoPlayers>
+    <section class="footer footer--horizontal">
+      <div class="footer__competition">
+        <div
+          class="footer__user"
+          [ngClass]="{'footer__user--active' : !turn || turn === PlayersEnum.Player1}"
+        >
+          <i class="memory-icons icon__user"></i>
+          <h4>{{ 'player' | translate }} 1</h4>
+        </div>
+        <h1>{{ pointsPlayer1 }}</h1>
+      </div>
+      <hr />
+      <div class="footer__competition">
+        <h1>{{ pointsPlayer2 }}</h1>
+        <div
+          class="footer__user"
+          [ngClass]="{'footer__user--active' : turn === PlayersEnum.Player2}"
+        >
+          <i class="memory-icons icon__user"></i>
+          <h4>{{ 'player' | translate }} 2</h4>
+        </div>
+      </div>
+    </section>
+  </ng-template>
+</ion-footer>

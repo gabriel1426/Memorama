@@ -1,0 +1,1073 @@
+i {
+  &[class*="memory-icons"] {
+    mask-size: contain;
+    mask-position: 50% 50%;
+    mask-repeat: no-repeat;
+    background: currentColor;
+  }
+}
+
+@mixin icon-common-size {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.icon {
+  &__animals {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals.svg");
+  }
+
+  &__food {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food.svg");
+  }
+
+  &__flags {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags.svg");
+  }
+
+  &__sports {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports.svg");
+  }
+
+  &__music {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music.svg");
+  }
+
+  &__restore {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/restore.svg");
+  }
+
+  &__sound {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sound.svg");
+  }
+
+  &__sound-off {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/volume-off.svg");
+  }
+
+  &__home {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/home.svg");
+  }
+
+  &__question {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/question-mark.svg");
+  }
+
+  &__user {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/user.svg");
+  }
+
+  &__axolotl {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/axolotl.svg");
+  }
+
+  &__cat {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/cat.svg");
+  }
+
+  &__charging-bull {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/charging-bull.svg");
+  }
+
+  &__donkey {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/donkey.svg");
+  }
+
+  &__eagle-emblem {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/eagle-emblem.svg");
+  }
+
+  &__earwig {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/earwig.svg");
+  }
+
+  &__frog {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/frog.svg");
+  }
+
+  &__gecko {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/gecko.svg");
+  }
+
+  &__goat {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/goat.svg");
+  }
+
+  &__gold-scarab {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/gold-scarab.svg");
+  }
+
+  &__horse-head {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/horse-head.svg");
+  }
+
+  &__jellyfish {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/jellyfish.svg");
+  }
+
+  &__labrador-head {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/labrador-head.svg");
+  }
+
+  &__lion {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/lion.svg");
+  }
+
+  &__mite-alt {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/mite-alt.svg");
+  }
+
+  &__pangolin {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/pangolin.svg");
+  }
+
+  &__parrot-head {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/parrot-head.svg");
+  }
+
+  &__pig {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/pig.svg");
+  }
+
+  &__polar-bear {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/polar-bear.svg");
+  }
+
+  &__scarab-beetle {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/scarab-beetle.svg");
+  }
+
+  &__turtle {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/turtle.svg");
+  }
+
+  &__angular-spider {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/angular-spider.svg");
+  }
+
+  &__pegasus {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/pegasus.svg");
+  }
+
+  &__bird-twitter {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/bird-twitter.svg");
+  }
+
+  &__fox-head {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/fox-head.svg");
+  }
+
+  &__monkey {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/monkey.svg");
+  }
+
+  &__octopus {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/octopus.svg");
+  }
+
+  &__sad-crab {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/sad-crab.svg");
+  }
+
+  &__stag-head {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/stag-head.svg");
+  }
+
+  &__swan {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/swan.svg");
+  }
+
+  &__stomp {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/stomp.svg");
+  }
+
+  &__wasp-sting {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/wasp-sting.svg");
+  }
+
+  &__wolf-head {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/wolf-head.svg");
+  }
+
+  &__gorilla {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/gorilla.svg");
+  }
+
+  &__koala {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/koala.svg");
+  }
+
+  &__kangaroo {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/kangaroo.svg");
+  }
+
+  &__praying-mantis {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/praying-mantis.svg");
+  }
+
+  &__tiger-head {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/tiger-head.svg");
+  }
+
+  &__sheep {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/sheep.svg");
+  }
+
+  &__sperm-whale {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/animals/sperm-whale.svg");
+  }
+
+  // Foods
+
+  &__artichoke {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/artichoke.svg");
+  }
+
+  &__boba {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/boba.svg");
+  }
+
+  &__bok-choy {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/bok-choy.svg");
+  }
+
+  &__charcuterie {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/charcuterie.svg");
+  }
+
+  &__dumpling {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/dumpling.svg");
+  }
+
+  &__soda-bottle {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/soda-bottle.svg");
+  }
+
+  &__chocolate-bar {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/chocolate-bar.svg");
+  }
+
+  &__soda-can {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/soda-can.svg");
+  }
+
+  &__milk-carton {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/milk-carton.svg");
+  }
+
+  &__burn {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/burn.svg");
+  }
+
+  &__egg-pod {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/egg-pod.svg");
+  }
+
+  &__cake-slice {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/cake-slice.svg");
+  }
+
+  &__coffee-mug {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/coffee-mug.svg");
+  }
+
+  &__cheese-wedge {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/cheese-wedge.svg");
+  }
+
+  &__dripping-honey {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/dripping-honey.svg");
+  }
+
+  &__grapes {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/grapes.svg");
+  }
+
+  &__pie-slice {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/pie-slice.svg");
+  }
+
+  &__salt-shaker {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/salt-shaker.svg");
+  }
+
+  &__shiny-apple {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/shiny-apple.svg");
+  }
+
+  &__sliced-bread {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/sliced-bread.svg");
+  }
+
+  &__teapot {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/teapot.svg");
+  }
+
+  &__wheat {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/wheat.svg");
+  }
+
+  &__avocado {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/avocado.svg");
+  }
+
+  &__banana {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/banana.svg");
+  }
+
+  &__beer-bottle {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/beer-bottle.svg");
+  }
+
+  &__beet {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/beet.svg");
+  }
+
+  &__bell-pepper {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/bell-pepper.svg");
+  }
+
+  &__berries-bowl {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/berries-bowl.svg");
+  }
+
+  &__butter-toast {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/butter-toast.svg");
+  }
+
+  &__full-pizza {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/full-pizza.svg");
+  }
+
+  &__french-fries {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/french-fries.svg");
+  }
+
+  &__hamburger {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/hamburger.svg");
+  }
+
+  &__honey-jar {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/honey-jar.svg");
+  }
+
+  &__hot-dog {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/hot-dog.svg");
+  }
+
+  &__ice-cream-cone {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/ice-cream-cone.svg");
+  }
+
+  &__jelly {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/jelly.svg");
+  }
+
+  &__marshmallows {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/marshmallows.svg");
+  }
+
+  &__nachos {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/nachos.svg");
+  }
+
+  &__noodles {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/noodles.svg");
+  }
+
+  &__sandwich {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/sandwich.svg");
+  }
+
+  &__popcorn {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/popcorn.svg");
+  }
+
+  &__pretzel {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/pretzel.svg");
+  }
+
+  &__pear {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/pear.svg");
+  }
+
+  &__stairs-cake {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/stairs-cake.svg");
+  }
+
+  &__spiral-lollipop {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/spiral-lollipop.svg");
+  }
+
+  &__tacos {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/tacos.svg");
+  }
+
+  &__tangerine {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/tangerine.svg");
+  }
+
+  &__tomato {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/tomato.svg");
+  }
+
+  &__wine-bottle {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/food/wine-bottle.svg");
+  }
+
+  // Sports
+
+  &__american-football-player {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/american-football-player.svg");
+  }
+
+  &__archer {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/archer.svg");
+  }
+
+  &__baseball-glove {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/baseball-glove.svg");
+  }
+
+  &__basketball-ball {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/basketball-ball.svg");
+  }
+
+  &__body-balance {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/body-balance.svg");
+  }
+
+  &__bowling-strike {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/bowling-strike.svg");
+  }
+
+  &__canoe {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/canoe.svg");
+  }
+
+  &__corner-flag {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/corner-flag.svg");
+  }
+
+  &__cricket-bat {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/cricket-bat.svg");
+  }
+
+  &__cycling {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/cycling.svg");
+  }
+
+  &__discobolus {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/discobolus.svg");
+  }
+
+  &__fencer {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/fencer.svg");
+  }
+
+  &__flying-fox {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/flying-fox.svg");
+  }
+
+  &__golf-flag {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/golf-flag.svg");
+  }
+
+  &__high-kick {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/high-kick.svg");
+  }
+
+  &__high-punch {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/high-punch.svg");
+  }
+
+  &__hockey {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/hockey.svg");
+  }
+
+  &__ice-skate {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/ice-skate.svg");
+  }
+
+  &__kimono {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/kimono.svg");
+  }
+
+  &__ping-pong-bat {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/ping-pong-bat.svg");
+  }
+
+  &__pool-dive {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/pool-dive.svg");
+  }
+
+  &__scuba-mask {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/scuba-mask.svg");
+  }
+
+  &__shuttlecock {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/shuttlecock.svg");
+  }
+
+  &__skier {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/skier.svg");
+  }
+
+  &__snitch-quidditch-ball {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/snitch-quidditch-ball.svg");
+  }
+
+  &__soccer-ball {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/soccer-ball.svg");
+  }
+
+  &__trophy-cup {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/trophy-cup.svg");
+  }
+
+  &__van-damme-split {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/van-damme-split.svg");
+  }
+
+  &__wave-surfer {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/wave-surfer.svg");
+  }
+
+  &__weight-lifting-up {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/sports/weight-lifting-up.svg");
+  }
+
+  // Flags
+
+  &__barracks-tent {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/barracks-tent.svg");
+  }
+
+  &__barracks {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/barracks.svg");
+  }
+
+  &__black-flag {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/black-flag.svg");
+  }
+
+  &__brazil-flag {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/brazil-flag.svg");
+  }
+
+  &__broken-ribbon {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/broken-ribbon.svg");
+  }
+
+  &__checkered-flag {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/checkered-flag.svg");
+  }
+
+  &__conqueror {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/conqueror.svg");
+  }
+
+  &__corner-flag {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/corner-flag.svg");
+  }
+
+  &__crow-nest {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/crow-nest.svg");
+  }
+
+  &__ermine {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/ermine.svg");
+  }
+
+  &__european-flag {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/european-flag.svg");
+  }
+
+  &__flag-objective {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/flag-objective.svg");
+  }
+
+  &__fleur-de-lys {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/fleur-de-lys.svg");
+  }
+
+  &__flying-flag {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/flying-flag.svg");
+  }
+
+  &__golf-flag {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/golf-flag.svg");
+  }
+
+  &__hammer-sickle {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/hammer-sickle.svg");
+  }
+
+  &__hill-conquest {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/hill-conquest.svg");
+  }
+
+  &__klingon {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/klingon.svg");
+  }
+
+  &__knight-banner {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/knight-banner.svg");
+  }
+
+  &__level-end-flag {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/level-end-flag.svg");
+  }
+
+  &__medieval-pavilion {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/medieval-pavilion.svg");
+  }
+
+  &__occupy {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/occupy.svg");
+  }
+
+  &__party-flags {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/party-flags.svg");
+  }
+
+  &__pirate-flag {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/pirate-flag.svg");
+  }
+
+  &__planet-conquest {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/planet-conquest.svg");
+  }
+
+  &__rally-the-troops {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/rally-the-troops.svg");
+  }
+
+  &__sand-castle {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/sand-castle.svg");
+  }
+
+  &__skull-crossed-bones {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/skull-crossed-bones.svg");
+  }
+
+  &__south-africa-flag {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/south-africa-flag.svg");
+  }
+
+  &__spinning-ribbons {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/spinning-ribbons.svg");
+  }
+
+  &__stairs-goal {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/stairs-goal.svg");
+  }
+
+  &__star-flag {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/star-flag.svg");
+  }
+
+  &__tattered-banner {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/tattered-banner.svg");
+  }
+
+  &__tower-flag {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/tower-flag.svg");
+  }
+
+  &__truce {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/truce.svg");
+  }
+
+  &__trumpet-flag {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/trumpet-flag.svg");
+  }
+
+  &__tusks-flag {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/tusks-flag.svg");
+  }
+
+  &__union-jack {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/union-jack.svg");
+  }
+
+  &__usa-flag {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/usa-flag.svg");
+  }
+
+  &__vertical-banner {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/flags/vertical-banner.svg");
+  }
+
+  // Music
+
+  &__accordion {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/accordion.svg");
+  }
+
+  &__bagpipes {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/bagpipes.svg");
+  }
+
+  &__banjo {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/banjo.svg");
+  }
+
+  &__bassoon {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/bassoon.svg");
+  }
+
+  &__clarinet {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/clarinet.svg");
+  }
+
+  &__djembe {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/djembe.svg");
+  }
+
+  &__drum-kit {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/drum-kit.svg");
+  }
+
+  &__drum {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/drum.svg");
+  }
+
+  &__flute {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/flute.svg");
+  }
+
+  &__french-horn {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/french-horn.svg");
+  }
+
+  &__gong {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/gong.svg");
+  }
+
+  &__grand-piano {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/grand-piano.svg");
+  }
+
+  &__guitar-bass-head {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/guitar-bass-head.svg");
+  }
+
+  &__guitar-head {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/guitar-head.svg");
+  }
+
+  &__guitar {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/guitar.svg");
+  }
+
+  &__harp {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/harp.svg");
+  }
+
+  &__lyre {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/lyre.svg");
+  }
+
+  &__maracas {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/maracas.svg");
+  }
+
+  &__musical-keyboard {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/musical-keyboard.svg");
+  }
+
+  &__ocarina {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/ocarina.svg");
+  }
+
+  &__musical-score {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/musical-score.svg");
+  }
+
+  &__musical-notes {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/musical-notes.svg");
+  }
+
+  &__otamatone {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/otamatone.svg");
+  }
+
+  &__pan-flute {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/pan-flute.svg");
+  }
+
+  &__pianist {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/pianist.svg");
+  }
+
+  &__piano-keys {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/piano-keys.svg");
+  }
+
+  &__pipe-organ {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/pipe-organ.svg");
+  }
+
+  &__saxophone {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/saxophone.svg");
+  }
+
+  &__tambourine {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/tambourine.svg");
+  }
+
+  &__trombone {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/trombone.svg");
+  }
+
+  &__trumpet {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/trumpet.svg");
+  }
+
+  &__tuba {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/tuba.svg");
+  }
+
+  &__double-quaver {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/double-quaver.svg");
+  }
+
+  &__g-clef {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/g-clef.svg");
+  }
+
+  &__sound-on {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/sound-on.svg");
+  }
+
+  &__tune-pitch {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/tune-pitch.svg");
+  }
+
+  &__zigzag-tune {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/zigzag-tune.svg");
+  }
+
+  &__violin {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/violin.svg");
+  }
+
+  &__xylophone {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/xylophone.svg");
+  }
+
+  &__yunluo {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/music/yunluo.svg");
+  }
+}

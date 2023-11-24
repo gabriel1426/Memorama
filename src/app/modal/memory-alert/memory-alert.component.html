@@ -1,0 +1,36 @@
+<section class="alert">
+  <ng-container *ngIf="!winner; else winnerTemplate">
+    <div
+      class="alert__icon-container"
+      [ngStyle]="{ 'background-color': color }"
+    >
+      <i class="memory-icons {{ icon }}"></i>
+    </div>
+    <h5>
+      {{ alert.title }}
+    </h5>
+  </ng-container>
+
+  <ng-template #winnerTemplate>
+    <div class="alert__winner">
+      <i class="memory-icons icon__user"></i>
+      <h4>¡El Jugador {{ winner }} Gano!</h4>
+    </div>
+  </ng-template>
+  <div class="alert__buttons">
+    <ion-button
+      class="button button--accent"
+      size="small"
+      (click)="response(true)"
+    >
+      {{ alert.okBtn }}
+    </ion-button>
+    <ion-button
+      class="button button--accent"
+      size="small"
+      (click)="response(false)"
+    >
+      {{ alert.cancelBtn }}
+    </ion-button>
+  </div>
+</section>
